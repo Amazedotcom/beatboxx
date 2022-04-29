@@ -191,25 +191,11 @@ public class BeatBox {
 				e.printStackTrace();
 			
 			}
-		
-		
-		
-		
+
 		}
-			
-			
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	//Listener classes 
 	public class MyStartListener implements ActionListener {
 	    public void actionPerformed(ActionEvent a) {
 	                  buildTrackAndStart() ;
@@ -251,7 +237,7 @@ public class BeatBox {
 	             if (check.isSelected()) {
 	                  checkboxState[i] = true;
 	}
-	} //II close l oop
+	} 
 	String messageToSend = null;
 	
 	try {
@@ -271,7 +257,7 @@ public class BeatBox {
 	              if (!le .getValueIsAdjusting()) {
 	                    String selected = (String) Incominglist .getSelectedValue();
 	if (selected != null) {
-	//II now go to the map, and change the sequence
+	
 	         boolean[] selectedState = (boolean[]) otherSeqsMap.get(selected);
 	          changeSequence(selectedState);
 	            sequencer.stop();
@@ -296,7 +282,7 @@ public class BeatBox {
 		otherSeqsMap.put(nameToShow, checkboxState) ;
 		listVector .add(nameToShow) ;
 		Incominglist.setListData(listVector) ;
-		}                                      //I I close whi l e
+		}                                     
 		      }catch(Exception ex) {ex.printStackTrace();}
 		}
 	}
