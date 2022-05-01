@@ -49,10 +49,7 @@ public class BeatBox {
 	public void startUp(String name ) {
 		username = name ;
 		try {
-			Socket sock = new Socket("127.0.0.1" , 4242);
-			out = new ObjectOutputStream(sock.getOutputStream());
-			in = new ObjectInputStream(sock.getInputStream());
-			//Thread remote = new Thread (new RemoteReader());
+			
 			//remote.start();
 			
 			
