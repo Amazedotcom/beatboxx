@@ -1,3 +1,3 @@
 # beatboxx
 
-app to mix songs 
+app to mix songs and create new Melodies with more 255+ instruments.
